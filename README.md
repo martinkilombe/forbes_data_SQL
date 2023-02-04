@@ -10,5 +10,6 @@ Here's a brief overview of the project goals
 
 - Clean Data .
 - Basic analysis.
+- Remove white spaces
 
 !
