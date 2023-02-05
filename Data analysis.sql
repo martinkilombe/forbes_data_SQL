@@ -64,8 +64,6 @@ WHERE (sales + profit)/2 > assets;
 SELECT * FROM forbes_financials.`forbes global 2022(2000 companies) - companies`
 ORDER BY sales DESC, profit DESC,assets DESC , market_value DESC;
 
-#Displaying specific columns
-SELECT sales FROM forbes_financials.`forbes global 2022(2000 companies) - companies`
 
 
 
