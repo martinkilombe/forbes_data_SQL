@@ -45,7 +45,7 @@ WHERE market_value LIKE '%$%M%';
 UPDATE forbes_financials.`forbes global 2022(2000 companies) - companies`
 SET market_value = replace(replace(trim(replace(market_value, '$', '')), 'B', ''), ' ', '');
 
-#aArranging companies by country and sales in ascending order
+#Arranging companies by country and sales in ascending order
 SELECT * FROM forbes_financials.`forbes global 2022(2000 companies) - companies`
 ORDER BY country, Sales ASC;
 
