@@ -1,6 +1,5 @@
 SELECT * FROM forbes_financials.`forbes global 2022(2000 companies) - companies`;
-
-
+#Data cleaning
 #Reformating the data -- removing the 'B' and 'M' and using numbers only
 #1. SALES
 #Remove the "M" for millions and replace with "B" for Billions after converting it to billions
@@ -14,7 +13,6 @@ WHERE sales LIKE "%M%";
 #Removing the Bs and white spaces to get the varchar 
 UPDATE forbes_financials.`forbes global 2022(2000 companies) - companies`
 SET sales = replace(replace(trim(replace(sales, '$', '')), 'B', ''), ' ', '');
-
 
 #2. Profit
 #Remove the "M" for millions and replace with "B" for Billions after converting it to billions
