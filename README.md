@@ -14,7 +14,7 @@
 
 
 Here's a brief overview of the project goals
-- Clean Data. 
+- Cleaning Data. 
   1. Remove whitespaces
   2. Removing the 'B' and 'M' and changing data-types
   
