@@ -4,6 +4,8 @@
 
 <p align="center">This Case Project contains Forbes Dataset on top 2000 global companies listed in May 2022. The project entails cleaning the data, and performing Analytics on the data set on  <b>SQL</b>.</p>
 
+<b>Data source<b>: https://www.kaggle.com/datasets/ramjasmaurya/top-2000-forbes-global-companies-in-2022
+
 <b>The following were performed on the data set</b>
 # 📒 Data cleaning
 # 📊 Data Analysis and Exploration 📈
